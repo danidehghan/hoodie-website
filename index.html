@@ -1,57 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoodie Website</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- =========== HEADER SECTION START =========== -->
+    <header id="navbar">
+      <div class="container">
+        <div class="nav-top">
+          <div class="nav-left">
+            <button class="icon-btn" aria-label="Menu">
+              <i class="ri-menu-line"></i>
+            </button>
+          </div>
 
+          <div class="nav-center">
+            <a href="#" class="logo">HOODIE</a>
+          </div>
+
+          <div class="nav-right">
+            <div class="theme-container">
+              <button class="icon-btn" id="theme-btn" aria-label="Toggle Theme">
+                <i class="ri-contrast-2-line" id="current-theme-icon"></i>
+              </button>
+              <ul class="theme-dropdown" id="theme-dropdown">
+                <li data-theme="light"><i class="ri-sun-line"></i> Light</li>
+                <li data-theme="dark"><i class="ri-moon-line"></i> Dark</li>
+                <li data-theme="system">
+                  <i class="ri-contrast-2-line"></i> System
+                </li>
+              </ul>
+            </div>
+
+            <button class="icon-btn" aria-label="User Account">
+              <i class="ri-user-line"></i>
+            </button>
+
+            <button class="icon-btn" aria-label="Cart">
+              <i class="ri-shopping-cart-line"></i>
+              <span class="cart-badge">0</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="nav-bottom">
+          <div class="group-left">
+            <button class="pill-btn">
+              CATEGORIES <i class="ri-arrow-drop-down-line"></i>
+            </button>
+            <button class="pill-btn">
+              NEW PRODUCT <i class="ri-arrow-drop-down-line"></i>
+            </button>
+            <div class="search-pill">
+              SEARCH <i class="ri-search-line"></i
+              ><input type="text" placeholder="Type to search ... " class="hidden-input" />
+            </div>
+          </div>
+
+          <div class="group-right">
+            <a href="#" class="pill-link">MEN</a>
+            <a href="#" class="pill-link">WOMAN</a>
+            <a href="#" class="pill-link">CHILDREN</a>
+            <a href="#" class="pill-link">POPULAR</a>
+          </div>
+          
+        </div>
+      </div>
+    </header>
     <!-- =========== HEADER SECTION END =========== -->
 
     <main>
+      <!-- =========== HERO SECTION START =========== -->
 
-        <!-- =========== HERO SECTION START =========== -->
+      <!-- =========== HERO SECTION END =========== -->
 
-        <!-- =========== HERO SECTION END =========== -->
+      <!-- =========== MARQUEE SECTION START =========== -->
 
-        <!-- =========== MARQUEE SECTION START =========== -->
+      <!-- =========== MARQUEE SECTION END =========== -->
 
-        <!-- =========== MARQUEE SECTION END =========== -->
+      <!-- =========== CATEGORY SECTION START =========== -->
 
-        <!-- =========== CATEGORY SECTION START =========== -->
+      <!-- =========== CATEGORY SECTION END =========== -->
 
-        <!-- =========== CATEGORY SECTION END =========== -->
+      <!-- =========== COLLECTION SECTION START =========== -->
 
-        <!-- =========== COLLECTION SECTION START =========== -->
+      <!-- =========== COLLECTION SECTION END =========== -->
 
-        <!-- =========== COLLECTION SECTION END =========== -->
+      <!-- =========== NEWSLETTER SECTION START =========== -->
 
-        <!-- =========== NEWSLETTER SECTION START =========== -->
-
-        <!-- =========== NEWSLETTER SECTION END =========== -->
-
+      <!-- =========== NEWSLETTER SECTION END =========== -->
     </main>
 
     <!-- =========== FOOTER SECTION START =========== -->
-     
+
     <!-- =========== HEADER SECTION END =========== -->
 
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
